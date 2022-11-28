@@ -1,67 +1,57 @@
-
-
 .main {
-
-background-color: rgb(238, 75, 75);
+  background-color: rgb(238, 75, 75);
 }
 
-.colorgrey  {
-    background-color: rgb(121, 121, 121);
+.colorgrey {
+  background-color: rgb(121, 121, 121);
 }
 
 .contenedor {
-    
-    
-    /* width para ancho
-    height para alto */
-    height: 800px;
-    width: auto;
-    position: relative;
+  /* width para ancho
+  height para alto */
+  height: 800px;
+  width: auto;
+  position: relative;
 }
 
 .plantel {
-    
-    border: 4px solid green ;
-    /* width: 200px;
-    height: 200px; */
-    display:inline-block;
+  border: 4px solid green;
+  /* width: 200px;
+  height: 200px; */
+  display: inline-block;
 }
 
-
-.sosa { 
-    /* relative */
-    position: relative;
-    left: 200px;
-    top: 50px;
-    
+.sosa {
+  /* relative */
+  position: relative;
+  left: 200px;
+  top: 50px;
 }
-.alvarez { 
-    /* relative */
-    position: relative;
-    left: 800px;
-    top: 50px;
-   
+
+.alvarez {
+  /* relative */
+  position: relative;
+  left: 800px;
+  top: 50px;
 }
 
 .titulos {
-    background-color: rgb(173, 173, 173);
-    
+  background-color: rgb(173, 173, 173);
 }
-
 
 /* .menu {
     background-color: rgb(136, 136, 136);
     width:auto;
     height: 130px;
     border: 2px black;
-    
-    
+
+
     display: flex;
 
     align-items: center;
     flex-direction:row;
     justify-content:end;
-    
+
 }
 
 
@@ -71,46 +61,41 @@ background-color: rgb(238, 75, 75);
     height: 60px;
     width: 80px;
     border: 2px solid black;
-    
+
     align-items: center;
     border-radius: 4px;
     display: flex;
     flex-wrap: wrap;
     font-size: 15px;
-    
+
 
 } */
-
 /* .logo {
     height: 60px;
 } */
-
-
 .fotos {
-    width:734px ;
-    height: auto;
+  width: 734px;
+  height: auto;
 }
-
-
 
 h1 {
-    color: white;
-    font-size: 45px;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: white;
+  font-size: 45px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
-
 h2 {
-    font-size: 30px;
-    color: white;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 30px;
+  color: white;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 p {
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 .link {
-    color: black;
-    
+  color: black;
 }
+
+/*# sourceMappingURL=style.css.map */
