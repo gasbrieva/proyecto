@@ -1,9 +1,35 @@
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css");
+/* PLANTEL*/
+.jugador {
+  border-radius: 1.5rem;
+  padding: 0.4rem;
+  max-width: 100%;
+  height: auto;
+  transition: all 0.3s ease;
+  filter: grayscale(70%);
+}
+.jugador h2 {
+  opacity: 0;
+}
+.jugador:hover {
+  transform: scale(1.05);
+  filter: grayscale(0%);
+}
+.jugador:hover h2 {
+  opacity: 1;
+}
+
 .main {
   background-color: rgb(238, 75, 75);
 }
 
 .colorgrey {
   background-color: rgb(121, 121, 121);
+}
+
+.logo {
+  height: 10%;
+  width: 10%;
 }
 
 .contenedor {
@@ -21,58 +47,10 @@
   display: inline-block;
 }
 
-.sosa {
-  /* relative */
-  position: relative;
-  left: 200px;
-  top: 50px;
-}
-
-.alvarez {
-  /* relative */
-  position: relative;
-  left: 800px;
-  top: 50px;
-}
-
 .titulos {
   background-color: rgb(173, 173, 173);
 }
 
-/* .menu {
-    background-color: rgb(136, 136, 136);
-    width:auto;
-    height: 130px;
-    border: 2px black;
-
-
-    display: flex;
-
-    align-items: center;
-    flex-direction:row;
-    justify-content:end;
-
-}
-
-
-
-.botonMenu {
-    background-color: rgb(121, 121, 121);
-    height: 60px;
-    width: 80px;
-    border: 2px solid black;
-
-    align-items: center;
-    border-radius: 4px;
-    display: flex;
-    flex-wrap: wrap;
-    font-size: 15px;
-
-
-} */
-/* .logo {
-    height: 60px;
-} */
 .fotos {
   width: 734px;
   height: auto;
@@ -80,22 +58,111 @@
 
 h1 {
   color: white;
-  font-size: 45px;
+  font-size: 4rem;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
+  text-decoration: underline;
 }
 
 h2 {
-  font-size: 30px;
+  font-size: 2rem;
   color: white;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 p {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 1rem;
+  margin-left: 1rem;
+  margin-right: 1rem;
+  text-align: justify;
 }
 
 .link {
   color: black;
+  text-shadow: 1rem;
+}
+
+.divisor {
+  background-color: rgb(121, 121, 121);
+  height: 2.5rem;
+  border-top: black 3px solid;
+  border-bottom: black 3px solid;
+}
+
+.hoverNav {
+  box-shadow: inset 0 0 0 0 rgb(238, 75, 75);
+  color: rgb(238, 75, 75);
+  margin: 0 -0.15rem;
+  padding: 0 0.15rem;
+  transition: color 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+}
+.hoverNav:hover {
+  box-shadow: inset 100px 0 0 0 rgb(238, 75, 75);
+  color: white;
+}
+
+.padreFlex {
+  background-color: rgb(121, 121, 121);
+  margin: auto;
+  width: auto;
+  height: auto;
+  border-top: black 3px solid;
+  border-bottom: black 3px solid;
+  padding: 1rem;
+}
+.padreFlex .hijoFlex {
+  background-color: rgb(204, 44, 44);
+  border-radius: 4px;
+  border: solid black 2px;
+  margin: auto;
+  max-height: auto;
+  min-height: 10rem;
+}
+.padreFlex .hijoFlex h4 {
+  color: white;
+  font-size: 1.5rem;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  text-align: center;
+  text-decoration: underline;
+}
+.padreFlex .hijoFlex p {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 1rem;
+}
+
+.footer {
+  font-weight: 700;
+}
+
+.copas h3 {
+  font-size: 1.5rem;
+  color: white;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.copas .copasFlex {
+  background-color: rgb(204, 44, 44);
+  border-radius: 4px;
+  border: solid black 2px;
+  margin: 1rem;
+  max-height: auto;
+  min-height: 15rem;
+}
+
+.carouselVertical {
+  align-items: center;
+}
+.carouselVertical img {
+  max-height: 45rem;
+  margin: auto;
+  margin-bottom: 3rem;
+}
+
+.carouselDiv {
+  margin: 2rem;
+}
+.carouselDiv .carouselHorizontal img {
+  max-height: 321px;
+  max-width: 570px;
 }
 
 /*# sourceMappingURL=style.css.map */
